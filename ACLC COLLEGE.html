@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+        <title>ACLC COLLEGE</title> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">   
+            <nav>
+                <a href="index.html"><img src="image/logo.png" height="80"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="ACLC COLLEGE.html">HOME</a></li>
+                        <li><a href="ABOUT.html">ABOUT</a></li>
+                       
+                        <li><a href="REGISTERS.html">REGISTER</a></li>
+                        <li><a href="CONTACT.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>ACLC COLLEGE</h1>
+                <h2>DepEd voucher accepted for Senior High School</h2>
+                <p>Accepting freshmen, transferees, returning students, ALS passers, and foreign students.</P>
+                <a href="http://www.aclc.edu.ph/" class="hero-btn">Visit Us To Know More</a>
+           </div>
+             
+        </section>
+
+
+
+<!----course----->
+
+<section class="course">
+    <h2>Senior High Tracks</h2>
+    <p>Strands</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>ICT</h3>
+            <P>ICT is a Senior High School strand that prepares you for a career in Information and Communication Technology. It equips you with advanced skills in computer systems, programming, creating web pages, and basic animation.</P>
+        </div>
+
+        <div class="course-col">
+            <h3>ABM</h3>
+            <P>The Accountancy, Business and Management (ABM) strand would focus on the basic concepts of financial management, business management, corporate operations, and all things that are accounted for.</P>
+        </div>
+
+        <div class="course-col">
+            <h3>GAS</h3>
+            <P>GAS is a Senior High School strand that takes on a generalist approach in preparing students for college. It covers various disciplines like Humanities, Social Sciences, Organization, and Management.</P>
+        </div>
+
+     </div>
+
+</section>
+
+<!---Call To Action---->
+<section class="cta">
+    <h1>Be #RealWorld Ready when you study at ACLC!</h1>
+    <p>Accepting freshmen, transferees, returning students, ALS passers, and foreign students.</p>
+    <a href="CONTACT.html"class="hero-btn">CONTACT US</a>
+
+</section>
+
+<!---Footer-->
+<div class="footer-container">
+    <div class="footer">
+        <div class="footer-heading footer-1">
+            <h2>About ACLC</h2>
+            <p>ACLC College is a member of the AMA Education System and <br>is one of the leading computer schools in the country.</p>
+        </div>
+        <div class="footer-heading footer-1">
+            <h2>Social Media</h2>
+            <p>For news & updates follow us</p>
+            <a href="https://www.facebook.com/ACLCMalolosOfficial/">Facebook</a>
+            <a href="https://www.youtube.com/c/AmaesEduPh">Youtube</a>
+        </div>
+        <div class="footer-heading footer-1">
+            <h2>Work Immersion By</h2>
+            <p>Shanlee Exequiel F. Carpio</p>
+        </div>   
+    </div>
+</div>
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu------->
+<script>
+     
+     var navLinks = document.getElementById("navLinks");
+
+     function showMenu(){
+         navLinks.style.right = "0";
+     }
+     function hideMenu(){
+         navLinks.style.right = "-200px";
+     }
+
+</script>
+        
+    </body>
+</html>
