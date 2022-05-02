@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+        <title>ACLC COLLEGE</title> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">   
+            <nav>
+                <a href="index.html"><img src="image/logo.png" height="80"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="ACLC COLLEGE.html">HOME</a></li>
+                        <li><a href="ABOUT.html">ABOUT</a></li>
+                        
+                        <li><a href="REGISTERS.html">REGISTER</a></li>
+                        <li><a href="CONTACT.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Register</h1>
+        </section>
+
+        <!----REGISTER------>
+      
+
+      </section>
+
+      <section class="register">
+          <div class="row">
+              <div class="register-col">
+                  <div>
+                      <span>
+                          <h5>Register Using The Form</h5>
+                          <p>Please fill up the necessary information needed. Make sure that you have a valid email address as a confirmation message will be sent.</p>
+                      </span>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-square"></i>
+                    <span>
+                        <h5>ABM</h5>
+                        <p>Accountancy, Business and Management</p>
+                    </span>
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-square"></i>
+                    <span>
+                        <h5>GAS</h5>
+                        <p>General Academics Strand</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-square"></i>
+                    <span>
+                        <h5>ICT</h5>
+                        <p>Information and Communication Technology
+                            Computer System Services
+                            Computer Programming
+                            Animation</p>
+                    </span>
+                </div>
+              </div>
+              <div class="register-col">
+                  <form action="form-handler.php" method="post">
+                      <input type="text" name="name" placeholder="Enter your name" required>
+                      <input type="Email" name="email" placeholder="Enter Email Address" required>
+                      <input type="text" name="track_strand" placeholder="Enter Track & Stand" required>
+                      <input type="text" name="phone_number" placeholder="Phone Number" required></textarea>
+                      <button type="submit" class="red-btn"> Send Message </button>
+                  </form>
+              </div>
+          </div>
+
+      </section>
+
+    
+
+<!----about------->
+
+
+
+<!----course----->
+
+
+
+<!---Call To Action---->
+
+
+<!---Footer-->
+<div class="footer-container">
+    <div class="footer">
+        <div class="footer-heading footer-1">
+            <h2>About ACLC</h2>
+            <p>ACLC College is a member of the AMA Education System and <br>is one of the leading computer schools in the country.</p>
+        </div>
+        <div class="footer-heading footer-1">
+            <h2>Social Media</h2>
+            <p>For news & updates follow us</p>
+            <a href="https://www.facebook.com/ACLCMalolosOfficial/">Facebook</a>
+            <a href="https://www.youtube.com/c/AmaesEduPh">Youtube</a>
+        </div>
+        <div class="footer-heading footer-1">
+            <h2>Work Immersion By</h2>
+            <p>Shanlee Exequiel F. Carpio</p>
+        </div>   
+    </div>
+</div>
+
+
+
+
+<!------JavaScript for Toggle Menu------->
+<script>
+     
+     var navLinks = document.getElementById("navLinks");
+
+     function showMenu(){
+         navLinks.style.right = "0";
+     }
+     function hideMenu(){
+         navLinks.style.right = "-200px";
+     }
+
+</script>
+        
+    </body>
+</html>
